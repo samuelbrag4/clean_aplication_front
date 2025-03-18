@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16rem;
+    height: 100%;
+    border-radius: 0.3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #db8c8c;
+}
+
+.imageCard {
+    width: 100%;
+    height: 45%;
+    border-radius: 0.3rem;
+    object-fit: cover;
+}
+
+.textCard {
+    width: 100%;
+    height: 55%;
+    background-color: blueviolet;
+}
+

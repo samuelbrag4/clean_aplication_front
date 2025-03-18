@@ -3,7 +3,7 @@ import styles from './header.module.css';
 
 const Header = ({ page }) => {
     // Define a classe do header com base na propriedade `page`
-    const headerClass = `${styles.header} ${styles[`header-${page}`]}`;
+    const headerClass = `${styles.header} ${styles[`header-${page}`]}`; // Exemplo: header header-home
 
     return (
         <header className={headerClass}>
