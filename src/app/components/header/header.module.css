@@ -1,0 +1,81 @@
+.header {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #F05080;
+    margin: 30px 90px 90px 90px; 
+  }
+  
+  
+  /* Forma de alterar para cada página.
+  Ex: */
+  
+  
+  /* Página Home */
+  .header-home {
+    background-color: #ffffff;
+  }
+  
+  /* Página Produtos */
+  .header-produtos {
+    background-color: #33ff57; /* Verde */
+  }
+  
+  
+  /* Página Blog */
+  .header-blog {
+    background-color: #3357ff; /* Azul */
+  }
+  
+  
+  /* Página Contato */
+  .header-contato {
+    background-color: #ff33a1; /* Rosa */
+  }
+  
+  
+  /* Se você usar o Header com a propriedade page, ele terá a cor específica daquela página:
+  Ex: <Header page="home" />
+  <Header page="produtos" />
+  <Header page="blog" />
+  <Header page="contato" />
+  */
+  
+  
+  /* Estilos dos elementos internos */
+  .navTitulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    color: #ffffff;
+    margin-right: 150px;
+  }
+  
+  
+  .button {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #F05080;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .navsign {
+    margin-right: 30px;
+    color: #ffffff;
+  }
+  
+  
+  .navText {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 250px;
+  }
+  
+  
+  .navText:last-child {
+    margin-right: 80px;
+  }
