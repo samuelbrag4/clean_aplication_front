@@ -1,0 +1,79 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: #fff;
+    margin: auto; 
+    padding: 2rem 0;
+    font-family: "Inter", sans-serif;
+}
+
+.containerInformacao {
+    max-width: 50%;
+}
+
+.heroTitulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.heroTexto {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.heroBotoes {
+    display: flex;
+    gap: 1rem;
+}
+
+.heroPrimeiroBotao {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 550;
+    color: #fff;
+    background-color: #00DAC7; 
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.heroPrimeiroBotao:hover {
+    background-color: #00b8a5; 
+    transform: scale(1.05);
+}
+
+.heroSegundoBotao {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 550;
+    color: #474747;
+    background-color: transparent;
+    border: 1px solid #696868;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.heroSegundoBotao:hover {
+    transform: scale(1.05);
+}
+
+.containerImagem {
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    max-width: 100%;
+    height: auto;
+}
