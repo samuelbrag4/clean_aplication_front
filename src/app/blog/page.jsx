@@ -13,6 +13,8 @@ export default function Blog() {
                 textoAlt={"Mulher deitada com uma toalha na cabeça e um argila no rosto"}
                 categoria={"Skincare"}
                 titulo={"Hidratação com Argila"}
+                descricao={"A argila é um dos ingredientes naturais mais poderosos para a saúde da pele, oferecendo propriedades purificantes..."}
+                caminhoArtigo={"https://www.belezanaweb.com.br/loucas-por-beleza/como-usar-argila-no-cabelo/"}
                 />
             </section>
             

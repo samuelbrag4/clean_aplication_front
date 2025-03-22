@@ -3,10 +3,10 @@
     flex-direction: column;
     justify-content: space-between;
     width: 16rem;
-    height: 100%;
+    height: 22rem;
     border-radius: 0.3rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #db8c8c;
+    background-color: #fff;
 }
 
 .imageCard {
@@ -19,6 +19,41 @@
 .textCard {
     width: 100%;
     height: 55%;
-    background-color: blueviolet;
+    margin: 0.5rem;
+    font-family: "Inter", sans-serif;
 }
 
+.categoria {
+    margin-top: 0.4rem;
+    font-size: 10px;
+}
+
+.tituloCard {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0.4rem;
+}
+
+.descricao {
+    font-size: 13px;
+    margin-top: 0.4rem;
+    margin-right: 1rem;
+}
+
+.botaoCard {
+    width: 40%;
+    height: 2rem;
+    background-color: transparent;
+    border-radius: 0.3rem;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    border-color: #00DAC7;  
+    margin-top: 1.5rem;
+}
+
+.linkBotao {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
