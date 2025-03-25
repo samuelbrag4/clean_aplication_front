@@ -6,7 +6,7 @@ import Hero from '../components/hero';
 export default function Blog() {
     return (
         <div>
-            <Header />
+            <Header corHeader={"#00DAC7"}/>
 
             <Hero
             linkImage={"https://i.pinimg.com/736x/cc/d7/f1/ccd7f15523a1891ec4b20fc2002221c4.jpg"}

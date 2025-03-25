@@ -1,13 +1,22 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import Header from "./components/header";
+import Hero from "./components/hero";
+import CategoryCard from "./components/category_card";
 
 export default function Home() {
   return (
     <div>
-      <Header/>
+      <Header corHeader={"#F05080"} />
 
-      <h1>Hello</h1>
+      <Hero
+        linkImage={"https://i.pinimg.com/736x/fa/68/a5/fa68a517817e95ea9e05e0b939e1e7e8.jpg"}
+        heroTitulo={"Aqui a sua Beleza Entra em Primeiro Lugar"}
+        heroTexto={"Quer saber como ter uma pele naturalmente bonita? Descubra 8 dicas de beleza simples para começar hoje mesmo e deixar a pele ainda mais radiante."}
+        textoPrimeiroBotao={"Ler Mais"}
+        corBotao={"#F05080"}
+        textoSegundoBotao={"Sobre"}
+      />
+      
+      <CategoryCard/>
 
     </div>
   );
