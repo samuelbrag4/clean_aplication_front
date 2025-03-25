@@ -1,0 +1,32 @@
+.sectionCards {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.cards {
+    width: 80%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.botao {
+    width: 14%;
+    padding: 1rem;
+    border: 2.99px solid #00DAC7;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00DAC7;
+    border-radius: 2px;
+    border-radius: 0.3rem;
+}
