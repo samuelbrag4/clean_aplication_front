@@ -1,126 +1,126 @@
 .footer {
-    background-color: #00DAC7;
-    color: white;
-    padding: 20px;
-    margin-bottom: 0;
-  }
-  
-  .topSection {
-    display: flex;
-    gap: 50px;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    font-family: 'Caveat', cursive;
-    margin: 0; 
-    display: flex;
-    align-items: center; 
-  }
-  
-  .description {
-    font-size: 17px;
-    font-family: 'Inter', sans-serif;
-    justify-items: justify;
-    padding-right: 100px;
-  }
-  
-  .separator {
-    border-top: 1px solid white;
-    margin: 20px 0;
-  }
-  
-  .bottomSection {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 100px;
-  }
-  
-  .links {
-    flex: 1;
-    max-width: 200px;
-  }
-  
-  .connect h3, .links h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .connect ul, .links ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .connect ul li a, .links ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  .newsletter p {
-    font-size: 14px;
-    margin-bottom: 10px;
-    font-family: 'Inter', sans-serif; 
-  }
-  
-  .newsletter input {
-    padding: 8px;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  .button {
-    background-color: rgb(27, 175, 168);
-    color: #ffffff;
-    height: 30px;
-    width: 10rem;
-    border: none;
-   
-  }
-  
-  .links {
-    font-family: 'Inter', sans-serif; 
-  }
-  
-  .connect {
-    font-family: 'Inter', sans-serif;
-  }
-  
-  
-  .footer {
-    padding: 40px 20px;
-    margin: 20px auto; 
-    max-width: 1200px; 
-  }
-  
-  .newsletter {
-    font-family: 'Inter', sans-serif;
-    margin-right: -100px;
-  }
-  
-  .inputGroup {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 50px;
-  }
-  
-  .paragrafo {
-    padding-right: 30%;
-    justify-items: justify;
-    margin-top: 5px;
-  }
-  
-  .inputGroup input::placeholder{
-    color: #00DAC7
-  }
-  
-  .links ul {
-    text-decoration: underline;
-    line-height: 2;
-  }
-  
-  .connect ul {
-    line-height: 2;}
+  background-color: #00DAC7;
+  color: white;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.topSection {
+  display: flex;
+  gap: 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Caveat', cursive;
+  margin: 0; 
+  display: flex;
+  align-items: center; 
+}
+
+.description {
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+  justify-items: justify;
+  padding-right: 100px;
+}
+
+.separator {
+  border-top: 1px solid white;
+  margin: 20px 0;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.links {
+  flex: 1;
+  max-width: 200px;
+}
+
+.connect h3, .links h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.connect ul, .links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.connect ul li a, .links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.newsletter p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif; 
+}
+
+.newsletter input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: rgb(27, 175, 168);
+  color: #ffffff;
+  height: 30px;
+  width: 10rem;
+  border: none;
+ 
+}
+
+.links {
+  font-family: 'Inter', sans-serif; 
+}
+
+.connect {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.footer {
+  padding: 40px 20px;
+  margin: 20px auto; 
+  max-width: 1200px; 
+}
+
+.newsletter {
+  font-family: 'Inter', sans-serif;
+  margin-right: -100px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 50px;
+}
+
+.paragrafo {
+  padding-right: 30%;
+  justify-items: justify;
+  margin-top: 5px;
+}
+
+.inputGroup input::placeholder{
+  color: #00DAC7
+}
+
+.links ul {
+  text-decoration: underline;
+  line-height: 2;
+}
+
+.connect ul {
+  line-height: 2;}

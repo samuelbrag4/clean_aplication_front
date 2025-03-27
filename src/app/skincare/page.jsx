@@ -1,3 +1,4 @@
+import Footer from '../components/footer';
 import Header from '../components/header';
 import Hero from '../components/hero';
 
@@ -14,6 +15,8 @@ export default function Skincare() {
                 corBotao={"#5FCED4"}
                 textoSegundoBotao={"Vídeos"}
             />
+
+            <Footer />
         </div>
     );
 };

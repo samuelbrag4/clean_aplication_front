@@ -1,3 +1,4 @@
+import Footer from '../components/footer';
 import Header from '../components/header';
 
 export default function Conta() {
@@ -6,6 +7,7 @@ export default function Conta() {
             <Header corHeader={"#F05080"}/>
 
             <h1>Conheça sua conta</h1>
+            <Footer />
         </div>
     );
 };

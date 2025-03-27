@@ -4,6 +4,7 @@ import Card from '../components/card';
 import Hero from '../components/hero';
 import SectionCards from "../components/section_cards";
 import CategoryBlog from "../components/category_blog";
+import Footer from "../components/footer";
 
 export default function Blog() {
     return (
@@ -309,7 +310,7 @@ export default function Blog() {
                     corCategoria={"#00DAC7"}
                 />
             </SectionCards>
-
+            <Footer />
         </div>
     );
 };
