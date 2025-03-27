@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./cards.module.css";
 
-const Card = ({ capa, textoAlt, categoria, titulo, descricao, caminhoArtigo, corBorda, corCategoria, link }) => {
+const Card = ({ capa, textoAlt, categoria, titulo, descricao, caminhoArtigo, corBorda, corCategoria }) => {
     return (
         <div className={styles.card}>
             <img className={styles.imageCard} src={capa} alt={textoAlt} />

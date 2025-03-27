@@ -1,10 +1,13 @@
 import Header from '../components/header';
+import BannerArticle from '../components/banner_article';
 
 export default function ArtigoSkincare() {
     return (
         <div>
-            <Header corHeader={"#DBBD9C"}/>
-            <h1>texto</h1>
+            <Header corHeader={"#00DAC7"}/>
+
+            <BannerArticle linkImagem="https://capricho.abril.com.br/wp-content/uploads/2022/06/skincare-rotina-com-mascara-de-argila-verde.jpg?quality=85&strip=info" textoAlt="Mulher aplicando argila no rosto"/>
+
         </div>
     );
 };

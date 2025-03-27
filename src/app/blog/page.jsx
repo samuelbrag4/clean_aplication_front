@@ -33,7 +33,7 @@ export default function Blog() {
                     categoria={"Skincare"}
                     titulo={"Hidratação com Argila"}
                     descricao={"A argila é um dos ingredientes naturais mais poderosos para a saúde da pele, oferecendo propriedades purificantes..."}
-                    caminhoArtigo={"https://www.belezanaweb.com.br/loucas-por-beleza/como-usar-argila-no-cabelo/"}
+                    caminhoArtigo={"/article_skincare"}
                     corBorda={"#00DAC7"}
                     corCategoria={"#00DAC7"}
                 />
