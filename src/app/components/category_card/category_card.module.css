@@ -26,25 +26,36 @@
 }
 
 .card {
+    padding: 1rem;
     width: 18rem;
     height: 12rem;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     border-radius: 0.5rem;
+    position: relative;
     cursor: pointer;
     background-color: #FFFFFF;
-    position: relative;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.numberCard {
+    position: relative;
+    left: 7rem;
+    color: #CFCFCF;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
 }
 
 .card:hover {
     background-color: #FFB7C5;
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    height: 18rem;
 }
 
 .tituloCard {
@@ -53,10 +64,16 @@
     color: #333;
     margin-bottom: 0.5rem;
     text-align: center;
+    color: var(--Text-Color-Heading, #1C0A0A);
+    font-family: Pacifico;
+    font-style: normal;
+    line-height: 28px;
 }
 
 .cardTexto {
     font-size: 0.9rem;
+    position: relative;
+    top: 6rem;
     font-weight: 400;
     color: #555;
     text-align: center;

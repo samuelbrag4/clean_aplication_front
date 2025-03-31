@@ -9,18 +9,21 @@ const CategoryCard = () => {
                 <Link href="/skincare" className={styles.navLink}>
                     <div className={styles.card}>
                         <h1 className={styles.tituloCard}>Página de Skincare</h1>
+                        <h2 className={styles.numberCard}> 1 </h2>
                         <p className={styles.cardTexto}>O que não pode faltar no skincare? Os passos básicos de uma rotina de skincare simples são: higienização, tonificação, hidratação e proteção solar.</p>
                     </div>
                 </Link>
                 <Link href="/body" className={styles.navLink}>
                     <div className={styles.card}>
                         <h1 className={styles.tituloCard}>Página de Corpo</h1>
+                        <h2 className={styles.numberCard}> 2 </h2>
                         <p className={styles.cardTexto}>O que não pode faltar no skincare? Os passos básicos de uma rotina de skincare simples são: higienização, tonificação, hidratação e proteção solar.</p>
                     </div>
                 </Link >
                 <Link href="/makeup" className={styles.navLink}>
                     <div className={styles.card}>
                         <h1 className={styles.tituloCard}>Página de Maquiagem</h1>
+                        <h2 className={styles.numberCard}> 3 </h2>
                         <p className={styles.cardTexto}>O que não pode faltar no skincare? Os passos básicos de uma rotina de skincare simples são: higienização, tonificação, hidratação e proteção solar.</p>
                     </div>
                 </Link>
