@@ -27,8 +27,8 @@
 
 .card {
     padding: 1rem;
-    width: 18rem;
-    height: 12rem;
+    width: 32rem;
+    height: 18rem;
     display: flex;
     justify-content: center;
     border-radius: 0.5rem;
@@ -42,10 +42,10 @@
 
 .numberCard {
     position: relative;
-    left: 7rem;
+    left: 16rem;
     color: #CFCFCF;
     font-family: Inter;
-    font-size: 50px;
+    font-size: 74px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
@@ -59,7 +59,7 @@
 }
 
 .tituloCard {
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #333;
     margin-bottom: 0.5rem;
