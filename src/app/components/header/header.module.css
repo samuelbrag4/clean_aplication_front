@@ -1,11 +1,11 @@
 .header {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    margin-top: 2rem;
-  }
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
   
 .logoTitulo{
   width: 20%;

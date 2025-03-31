@@ -1,12 +1,9 @@
 import Link from 'next/link';
 import styles from './header.module.css';
 
-const Header = ({ page, corHeader }) => {
-    // Define a classe do header com base na propriedade `page`
-    const headerClass = `${styles.header} ${styles[`header-${page}`]}`; // Exemplo: header header-home
-
+const Header = ({ corHeader }) => {
     return (
-        <header className={headerClass} style={{ backgroundColor: corHeader }}>
+        <header className={styles.header} style={{ backgroundColor: corHeader }}>
             <section className={styles.logoTitulo}>
                 <h1 className={styles.titulo}>Clean.</h1>
             </section>
