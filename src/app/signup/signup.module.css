@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.signupSection {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(270deg, #FFF 0%, #F05080 100%);
+    padding: 2rem;
+}
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 1rem;
+}
+
+.input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.signupButton {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #DBBD9C;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signupButton:hover {
+    background-color: #c4a883;
+}
+
+.socialButton {
+    width: 80%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    background-color: #4285F4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.socialButton:nth-child(5) {
+    background-color: #3b5998;
+}
+
+.socialButton:hover {
+    opacity: 0.9;
+}
+
+.loginText {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.loginText a {
+    color: #DBBD9C;
+    text-decoration: none;
+}
+
+.loginText a:hover {
+    text-decoration: underline;
+}
+
+.imageSection {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butterflyImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
