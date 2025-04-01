@@ -23,10 +23,8 @@
 .botao {
     width: 14%;
     padding: 1rem;
-    border: 2.99px solid #00DAC7;
+    border: none;
     font-size: 16px;
-    color: #fff;
-    background-color: #00DAC7;
     border-radius: 2px;
     border-radius: 0.3rem;
 }

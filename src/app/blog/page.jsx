@@ -1,4 +1,3 @@
-import styles from "./blog.module.css"
 import Header from '../components/header';
 import Card from '../components/card';
 import Hero from '../components/hero';
@@ -27,7 +26,7 @@ export default function Blog() {
             texto={"Cuidar da pele vai muito além da estética—é uma forma de mantê-la saudável e protegida. O skincare ajuda a prevenir o envelhecimento precoce, controla a oleosidade, combate o ressecamento e protege contra agressões externas, como poluição e raios solares. Com uma rotina simples, você pode manter a pele equilibrada e radiante todos os dias. ✨🧴"}
             />
 
-            <SectionCards>
+            <SectionCards corBotao={"#00DAC7"} corTextoBotao={"#fff"}>
                 <Card
                     capa={"https://artex.com.br/emcasa/wp-content/uploads/2021/03/skincare4.png"}
                     textoAlt={"Mulher deitada com uma toalha na cabeça e um argila no rosto"}
@@ -124,7 +123,7 @@ export default function Blog() {
             texto={"Hidratar, esfoliar e proteger a pele do corpo são hábitos fundamentais para mantê-la macia, firme e saudável. Produtos como hidratantes, óleos corporais e protetores solares ajudam a evitar o ressecamento, a flacidez e os danos causados pelo sol. Além da estética, cuidar da pele do corpo proporciona uma sensação de bem-estar e relaxamento no dia a dia. 🌿🛀"}
             />
 
-            <SectionCards>
+            <SectionCards corBotao={"#00DAC7"} corTextoBotao={"#fff"}>
                 <Card
                     capa={"https://artex.com.br/emcasa/wp-content/uploads/2021/03/skincare4.png"}
                     textoAlt={"Mulher deitada com uma toalha na cabeça e um argila no rosto"}
@@ -221,7 +220,7 @@ export default function Blog() {
             texto={"A maquiagem realça a beleza e aumenta a autoestima, mas a escolha dos produtos certos faz toda a diferença. Usar maquiagens de qualidade evita irritações, alergias e até problemas mais sérios na pele. Além disso, produtos bem formulados garantem um acabamento mais bonito e duradouro, deixando sua make impecável sem prejudicar a saúde da pele. 💄💖"}
             />
 
-            <SectionCards>
+            <SectionCards corBotao={"#00DAC7"} corTextoBotao={"#fff"}>
                 <Card
                     capa={"https://artex.com.br/emcasa/wp-content/uploads/2021/03/skincare4.png"}
                     textoAlt={"Mulher deitada com uma toalha na cabeça e um argila no rosto"}
