@@ -3,20 +3,23 @@
   color: white;
   padding: 20px;
   margin-bottom: 0;
+  width: 100%;  /* Garante que o footer ocupe toda a largura disponível */
 }
 
 .topSection {
   display: flex;
   gap: 50px;
+  flex-wrap: wrap;  /* Permite que os itens se reorganizem em telas menores */
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
   font-family: 'Caveat', cursive;
-  margin: 0; 
+  margin: 0;
   display: flex;
-  align-items: center; 
+  align-items: center;
+  flex: 1; /* Permite que o logo ocupe o espaço restante em telas menores */
 }
 
 .description {
@@ -24,6 +27,8 @@
   font-family: 'Inter', sans-serif;
   justify-items: justify;
   padding-right: 100px;
+  flex: 2; /* O texto vai ocupar mais espaço, mas vai se ajustar com o flex */
+  max-width: 100%;
 }
 
 .separator {
@@ -36,6 +41,7 @@
   justify-content: space-between;
   flex-direction: row;
   gap: 100px;
+  flex-wrap: wrap;  /* Permite que os itens se reorganizem em telas menores */
 }
 
 .links {
@@ -62,7 +68,7 @@
 .newsletter p {
   font-size: 14px;
   margin-bottom: 10px;
-  font-family: 'Inter', sans-serif; 
+  font-family: 'Inter', sans-serif;
 }
 
 .newsletter input {
@@ -77,22 +83,24 @@
   height: 30px;
   width: 10rem;
   border: none;
- 
+}
+
+.button2 {
+  display: none;
 }
 
 .links {
-  font-family: 'Inter', sans-serif; 
+  font-family: 'Inter', sans-serif;
 }
 
 .connect {
   font-family: 'Inter', sans-serif;
 }
 
-
 .footer {
   padding: 40px 20px;
-  margin: 20px auto; 
-  max-width: 1200px; 
+  margin: 20px auto;
+  max-width: 1200px;
 }
 
 .newsletter {
@@ -114,7 +122,7 @@
 }
 
 .inputGroup input::placeholder{
-  color: #00DAC7
+  color: #00DAC7;
 }
 
 .links ul {
@@ -123,4 +131,91 @@
 }
 
 .connect ul {
-  line-height: 2;}
+  line-height: 2;
+}
+
+
+
+/* Para telas pequenas (celulares) */
+@media (max-width: 600px) {
+  .topSection {
+    flex-direction: column;  /* Organiza a logo e descrição em coluna */
+    text-align: center;  /* Centraliza o conteúdo */
+  }
+
+  .description {
+    padding-right: 0;  /* Remove o padding direito em telas pequenas */
+    max-width: 100%;
+  }
+
+  .bottomSection {
+    flex-direction: column;
+    gap: 20px;  /* Diminui o gap entre as seções */
+  }
+
+  .links, .connect, .newsletter {
+    max-width: 100%;
+    text-align: center;  /* Centraliza o texto nas seções */
+  }
+
+  .inputGroup {
+    flex-direction: column;  /* Alinha os inputs em coluna */
+    gap: 10px;
+  }
+
+  .button {
+    width: 20%;  /* Botão ocupa toda a largura disponível */
+  }
+
+  .paragrafo {
+    padding-right: 0;  /* Remove o padding direito */
+    text-align: center;  /* Centraliza o texto */
+  }
+
+
+
+}
+
+/* Para telas médias (tablets) */
+@media (max-width: 900px) {
+  .topSection {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bottomSection {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .description {
+    padding-right: 50px;  /* Ajusta o padding para tablets */
+  }
+
+  .inputGroup {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .button{
+    display: none;
+  }
+
+  .button2 {
+    background-color: rgb(27, 175, 168);
+    color: #ffffff;
+    height: 30px;
+    width: 10rem;
+    border: none;
+    border-radius: 5px;
+    display: inline;
+    margin-top: 10px;
+  }
+}
+
+/* Para telas grandes (desktops) */
+@media (min-width: 1200px) {
+  .bottomSection {
+    gap: 100px;
+  }
+}

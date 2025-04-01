@@ -50,6 +50,7 @@ const Footer = () => {
             <input type="email" placeholder="Email" />
             <button className={style.button}>ASSINAR</button>
           </div>
+          <button className={style.button2}>ASSINAR</button>
           <p className={style.paragrafo}>Ao clicar em “assinar” você concorda em receber e-mails da Re Petit e aceita a Politica de Privacidade e Termos e Uso.</p>
         </div>
       </div>
