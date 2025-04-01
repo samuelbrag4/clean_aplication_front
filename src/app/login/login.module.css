@@ -65,18 +65,20 @@
     width: 100%;
     padding: 12px;
     border-radius: 25px;
-    background-color: #F05080;
-    color: white;
     font-size: 16px;
     font-weight: bold;
     border: none;
     cursor: pointer;
-    transition: background 0.3s ease;
+    background-color: transparent;
+    border: 2px solid #F05080;
+
 }
 
-.signupButton:hover {
-    background-color: #ff5e7a;
+.signupButton:hover{
+    background-color: #ffffff;
+    transition: 1s;
 }
+
 
 .signupDivider {
     text-align: center;
