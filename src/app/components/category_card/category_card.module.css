@@ -43,6 +43,7 @@
 .numberCard {
     position: relative;
     left: 16rem;
+    background-color: beige;
     color: #CFCFCF;
     font-family: Inter;
     font-size: 74px;
@@ -60,6 +61,7 @@
 
 .tituloCard {
     font-size: 2rem;
+    background-color: aqua;
     font-weight: 700;
     color: #333;
     margin-bottom: 0.5rem;
@@ -73,8 +75,9 @@
 .cardTexto {
     font-size: 0.9rem;
     position: relative;
-    top: 6rem;
+    top: 7rem;
     font-weight: 400;
+    background-color: aquamarine;
     color: #555;
     text-align: center;
     opacity: 0;
