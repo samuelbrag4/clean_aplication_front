@@ -1,29 +1,28 @@
-
+import Link from 'next/link';
 import { FaGoogle, FaFacebook } from 'react-icons/fa';
 import styles from './login.module.css';
 
-export default function SignupPage() {
+export default function Login() {
   return (
     <div className={styles.signupContainer}>
     <div className={styles.signupBox}>
 
         <div className={styles.signupLeft}>
-          <h2 className={styles.signupTitle}>Crie uma conta</h2>
+          <h2 className={styles.signupTitle}>Entre </h2>
           <form className={styles.signupForm}>
-            <input type="text" name="name" placeholder="Nome Completo" className={styles.signupInput} />
             <input type="email" name="email" placeholder="E-mail" className={styles.signupInput} />
             <input type="password" name="password" placeholder="Senha" className={styles.signupInput} />
-            <button type="submit" className={styles.signupButton}>Criar Conta</button>
+            <button type="submit" className={styles.signupButton}>Entrar</button>
           </form>
           <div className={styles.signupDivider}>ou</div>
           <button className={styles.signupSocialButton}>
-            <FaGoogle className={styles.iconGoogle} size={30} /> Criar com o Google
+            <FaGoogle className={styles.iconGoogle} size={30} /> Entre com o Google
           </button>
           <button className={styles.signupSocialButton}>
-            <FaFacebook className={styles.iconFacebook} size={30}/> Criar com o Facebook
+            <FaFacebook className={styles.iconFacebook} size={30}/> Entre com o Facebook
           </button>
           <p className={styles.signupFooter}>
-            Já tem uma conta? <a href="#" className={styles.signupLink}>Entre</a>
+            Não tem uma conta? <Link href="/signup" className={styles.signupLink}>Cadastre-se</Link>
           </p>
         </div>
         <div className={styles.signupRight}>
