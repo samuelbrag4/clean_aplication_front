@@ -4,14 +4,17 @@
     align-items: center;
     justify-content: center;
     background: #FF6E94;
+    background: linear-gradient(to right, #F05080, #ffffff); /* Degradê rosa */
+
+
 }
 
 .signupBox {
     display: flex;
     width: 900px;
-    height: 500px;
     overflow: hidden;
-    gap: 2rem;
+    
+
 }
 
 .signupLeft {
@@ -20,7 +23,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #FF6E94;
+    gap: 10px;
+
 }
 
 .signupTitle {
@@ -35,7 +39,7 @@
 .signupForm {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
 }
 
 .signupInput {
@@ -43,14 +47,14 @@
     padding: 12px;
     border-radius: 25px;
     border: 1px solid #ddd;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .signupButton {
     width: 100%;
     padding: 12px;
     border-radius: 25px;
-    background-color: #ff758c;
+    background-color: #F05080;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -66,7 +70,7 @@
 .signupDivider {
     text-align: center;
     margin: 15px 0;
-    color: #666;
+    color: black;
 }
 
 .signupSocialButton {
@@ -77,8 +81,7 @@
     border: 1px solid #ddd;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    gap: 90px;
     cursor: pointer;
     font-size: 16px;
     transition: background 0.3s ease;
@@ -100,11 +103,11 @@
     text-align: center;
     margin-top: 15px;
     font-size: 14px;
-    color: #555;
+    color: #ffffff;
 }
 
 .signupLink {
-    color: #ff758c;
+    color: #F05080;
     text-decoration: none;
     font-weight: bold;
 }
@@ -118,7 +121,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #FF6E94;
 }
 
 .signupImage {

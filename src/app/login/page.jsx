@@ -5,7 +5,7 @@ import styles from './login.module.css';
 export default function SignupPage() {
   return (
     <div className={styles.signupContainer}>
-      <div className={styles.signupBox}>
+    <div className={styles.signupBox}>
 
         <div className={styles.signupLeft}>
           <h2 className={styles.signupTitle}>Crie uma conta</h2>
@@ -17,10 +17,10 @@ export default function SignupPage() {
           </form>
           <div className={styles.signupDivider}>ou</div>
           <button className={styles.signupSocialButton}>
-            <FaGoogle className={styles.iconGoogle} /> Criar com o Google
+            <FaGoogle className={styles.iconGoogle} size={30} /> Criar com o Google
           </button>
           <button className={styles.signupSocialButton}>
-            <FaFacebook className={styles.iconFacebook} /> Criar com o Facebook
+            <FaFacebook className={styles.iconFacebook} size={30}/> Criar com o Facebook
           </button>
           <p className={styles.signupFooter}>
             Já tem uma conta? <a href="#" className={styles.signupLink}>Entre</a>
