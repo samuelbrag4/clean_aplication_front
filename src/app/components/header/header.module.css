@@ -7,6 +7,12 @@
   margin-top: 2rem;
 }
 
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 .logoTitulo {
   width: 20%;
   margin-left: 1rem;
@@ -67,6 +73,8 @@
   .navText {
     font-size: 1rem;
     margin: 10px 0;
+
+    
   }
 }
 
@@ -90,7 +98,7 @@
   .hamburger {
     display: block;
     font-size: 2rem;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
   }
 
