@@ -6,8 +6,8 @@
   margin: auto;
   margin-top: 2rem;
 }
-  
-.logoTitulo{
+
+.logoTitulo {
   width: 20%;
   margin-left: 1rem;
 }
@@ -36,4 +36,65 @@
 
 .navText:hover {
   font-weight: 800;
+}
+
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .logoTitulo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
+  }
+
+  .nav {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navText {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .nav {
+    display: none; 
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navText {
+    font-size: 1rem;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+
+
+  .hamburger {
+    display: block;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .nav.active {
+    display: flex;
+  }
 }
