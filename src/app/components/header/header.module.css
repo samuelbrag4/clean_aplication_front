@@ -48,7 +48,7 @@
 
 @media (max-width: 768px) {
   .header {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     width: 100%;
     padding: 10px;
@@ -72,15 +72,9 @@
 
   .navText {
     font-size: 1rem;
-    margin: 10px 0;
-
-    
+    margin: 10px 0;    
   }
-}
 
-
-
-@media (max-width: 480px) {
   .nav {
     display: none; 
     flex-direction: column;
@@ -105,4 +99,10 @@
   .nav.active {
     display: flex;
   }
+}
+
+
+
+@media (max-width: 480px) {
+
 }
