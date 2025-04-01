@@ -1,14 +1,25 @@
 .signupContainer {
+    min-height: 100vh;
+    width: 100%;
     display: flex;
-    height: 100vh;
-    align-items: center;
     justify-content: center;
-    background: #FF6E94;
-    background: linear-gradient(to right, #F05080, #ffffff); /* Degradê rosa */
-
-
+    align-items: center;
+    background: linear-gradient(-45deg, #00DAC7, #F05080, #DBBD9C, #49f6ff);
+    background-size: 400% 400%;
+    animation: gradientBackground 5s ease infinite;
 }
 
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 .signupBox {
     display: flex;
     width: 900px;
