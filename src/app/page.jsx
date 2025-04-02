@@ -2,6 +2,8 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import CategoryCard from "./components/category_card";
 import Footer from "./components/footer";
+import styles from "./page.module.css"; // Importando o CSS Modules
+import PopularProducts from "./components/popularProducts";
 
 export default function Home() {
   return (
@@ -16,8 +18,10 @@ export default function Home() {
         corBotao={"#F05080"}
         textoSegundoBotao={"Sobre"}
       />
-      
-      <CategoryCard/>
+
+      <CategoryCard />
+
+      <PopularProducts />
 
       <Footer />
     </div>

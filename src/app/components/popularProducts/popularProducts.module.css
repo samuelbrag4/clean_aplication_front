@@ -1,40 +1,35 @@
-.hero {
-    position: relative;
-    z-index: 1;
-}
-
 .produtos-populares {
     text-align: center;
     margin: 4rem 0;
-}
-
-.produtos-populares h2 {
+  }
+  
+  .produtos-populares-h2 {
     font-size: 2rem;
     color: #333;
-}
-
-.produtos-populares p {
+  }
+  
+  .produtos-populares-p {
     font-size: 1.2rem;
     color: #555;
     margin-bottom: 1.5rem;
-}
-
-.cards-container {
+  }
+  
+  .cards-container {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 1.5rem;
-}
-
-.card.vazio {
+  }
+  
+  .card.vazio {
     width: 15rem;
     height: 10rem;
     background-color: #f0f0f0;
     border: 1px dashed #ccc;
     border-radius: 0.5rem;
-}
-
-.ver-mais {
+  }
+  
+  .ver-mais {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     color: #fff;
@@ -43,8 +38,8 @@
     border-radius: 0.5rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-.ver-mais:hover {
+  }
+  
+  .ver-mais:hover {
     background-color: #d04070;
-}
+  }
