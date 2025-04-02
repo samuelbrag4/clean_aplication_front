@@ -2,7 +2,7 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import CategoryCard from "./components/category_card";
 import Footer from "./components/footer";
-import styles from "./page.module.css"; // Importando o CSS Modules
+import styles from "./page.module.css";
 import PopularProducts from "./components/popularProducts";
 
 export default function Home() {
