@@ -1,12 +1,13 @@
-import Footer from '../components/footer';
+import styles from './contact.module.css';
 import Header from '../components/header';
 
 export default function Contato() {
     return (
-        <div>
+        <div className={styles.container}>
             <Header corHeader={"#DBBD9C"} />
-            <h1>Entre em Contato</h1>
-            <Footer />
+            <div className={styles.contactSection}>
+
+            </div>
         </div>
     );
 };
